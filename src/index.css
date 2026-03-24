@@ -1,0 +1,34 @@
+/* GoogleFonts */
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&family=Share+Tech+Mono&display=swap");
+@import "tailwindcss";
+/*JetBrainsMono*/
+@font-face {
+    font-family: "JetBrains Mono NL";
+    src: url("./assets/fonts/JetBrainsMonoNL-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "JetBrains Mono NL";
+    src: url("./assets/fonts/JetBrainsMonoNL-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+@theme {
+    /* Cores */
+    --color-primary: #161616;
+    --color-secondary: #f0f1f3;
+    --color-tertiary: #fe1507;
+    --color-quaternary: #ababab;
+    /* Fontes */
+    --font-display: "Pirata One", cursive;
+    --font-mono: "JetBrains Mono NL", monospace;
+    --font-body: "Share Tech Mono", monospace;
+}
+@layer base {
+    body {
+        background-color: var(--color-primary);
+        color: var(--color-secondary);
+    }
+}
