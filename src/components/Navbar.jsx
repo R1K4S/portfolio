@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
-    <div className="w-full h-fit flex items-center justify-between p-2">
-      <div className="flex">
+    <div className="h-fit flex items-center justify-between p-2">
+      <div className="flex justify-center">
         <p className="text-[10px] font-body">Portifolio.exe/</p>
         <p className="text-[10px] font-display">Rikas</p>
       </div>
